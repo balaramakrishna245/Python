@@ -11,7 +11,7 @@ def modularExponential(base, power, mod):
 		base = (base * base) % mod
 	return result
 
-
+#here goes the main.
 def main():
 	print(modularExponential(3, 200, 13))
 
