@@ -89,7 +89,7 @@ def run_linear_regression(data_x, data_y):
 
     return theta
 
-
+#here goes the main.
 def main():
     """ Driver function """
     data = collect_dataset()
