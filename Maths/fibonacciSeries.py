@@ -5,7 +5,7 @@ def recur_fibo(n):
        return n
    else:
        return(recur_fibo(n-1) + recur_fibo(n-2))
-    
+#giving the limit for the series.    
 limit = int(input("How many terms to include in fionacci series:"))
 
 if limit <= 0:
