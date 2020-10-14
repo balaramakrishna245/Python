@@ -48,3 +48,4 @@ if __name__ == '__main__':
     pattern = "abcdabcy"
     text = "abcxabcdabxabcdabcdabcy"
     assert rabin_karp(pattern, text)
+    #test 4 complete
